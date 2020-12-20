@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./new-setting-page.css">
+    <title>New setting page</title>
+  </head>
+  <body>
+   <h1>Story Bits</h1>
+   <section>
+       <h2>New setting</h2>
+       <p>Enter the info below.</p>
+       <form class="new-setting-form">
+           <label for="story">Story:</label>
+           <select name="story" id="story">
+               <option value="1">Anne of Green Gables</option>
+               <option value="2">Vampire Diaries</option>
+           </select>
+           <br/>
+            <label for="title">Name:</label>
+            <input type="text" id="title" name="title" required>
+            <br/>
+            <label for="description">Short description:</label>
+            <textarea id="description" name="description" required>
+            </textarea>
+            <br/>
+            <label for="occupants">Occupants:</label>
+            <textarea id="occupants" name="occupants">
+            </textarea>
+            <br/>
+            <label for="decor">Decor:</label>
+            <textarea id="decor" name="decor">
+            </textarea>
+            <br/>
+            <input type="submit" value="Submit" class="submit-btn"/>
+       </form>
+
+   </section>
+   <footer>
+       <p>Copyright Kay Holten 2020</p>
+   </footer>
+  </body>
+</html>

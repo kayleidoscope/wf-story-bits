@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./new-setting-page.css">
+    <title>New character page</title>
+  </head>
+  <body>
+   <h1>Story Bits</h1>
+   <section>
+       <h2>New character</h2>
+       <p>Enter the info below.</p>
+       <form class="new-character-form">
+           <label for="story">Story:</label>
+           <select name="story" id="story">
+               <option value="1">Anne of Green Gables</option>
+               <option value="2">Vampire Diaries</option>
+           </select>
+           <br/>
+            <label for="title">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br/>
+            <label for="description">Short description:</label>
+            <textarea id="description" name="description" required>
+            </textarea>
+            <br/>
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender">
+            <br/>
+            <label for="appearance">Physical appearance:</label>
+            <textarea id="appearance" name="appearance">
+            </textarea>
+            <br/>
+            <label for="style">Fashion style:</label>
+            <textarea id="style" name="style">
+            </textarea>
+            <br/>
+            <label for="home">Home:</label>
+            <select name="home" id="home">
+                <option value="0">Not important</option>
+                <option value="1">Green Gables</option>
+                <option value="2">Diana's house</option>
+            </select>
+            <br/>
+            <label for="housemates">Housemates:</label>
+            <textarea id="housemates" name="housemates">
+            </textarea>
+            <br/>
+            <label for="decor">Decor:</label>
+            <textarea id="decor" name="decor">
+            </textarea>
+            <br/>
+            <input type="submit" value="Submit" class="submit-btn"/>
+       </form>
+
+   </section>
+   <footer>
+       <p>Copyright Kay Holten 2020</p>
+   </footer>
+  </body>
+</html>

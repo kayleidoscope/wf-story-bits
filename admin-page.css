@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: skyblue;
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+article {
+    border: solid 1px gray;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+footer {
+    font-size: small;
+    font-family: sans-serif;
+    text-align: center;
+    border-top: solid 1px;
+    padding-top: 5px;
+}

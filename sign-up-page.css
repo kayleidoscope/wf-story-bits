@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: skyblue;
+    padding: 50px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.sign-in-form {
+    padding: 10px;
+}
+
+.submit-btn {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+footer {
+    font-size: small;
+    font-family: sans-serif;
+    text-align: center;
+    border-top: solid 1px;
+    padding-top: 5px;
+}
